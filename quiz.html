@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="css/quizstyle.css" rel="stylesheet">
-  <script defer src="js/quizscript.js"></script>
-  <title>Quiz dépistage VIH et IST</title>
-</head>
-<body>
-<header>
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="quiz.html">Quiz</a> |
-    <a href="#">Contact</a>
-    </nav>
-</header>
-<h2>Quiz dépistage VIH et IST</h2>
-  <div class="container">
-    <div id="question-container" class="hide">
-      <div id="question">Question</div>
-      <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/quizstyle.css" rel="stylesheet" />
+    <script defer src="js/quizscript.js"></script>
+    <title>Quiz dépistage VIH et IST</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="bg-blue">
+      <nav class="navbar-nav margin-left">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="quiz.html" class="nav-link">Quiz</a>
+      </nav>
+    </header>
+    <!-- <nav class="navbar bg-blue">
+      <div class="container flex">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/sida-logo.png" alt="site logo" />
+        </a>
+        <button type="button" class="navbar-show-btn">
+          <img src="images/ham-menu-icon.png" />
+        </button>
+
+        <div class="navbar-collapse bg-white">
+          <button type="button" class="navbar-hide-btn">
+            <img src="images/close-icon.png" />
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./quiz.html" class="nav-link">Quiz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <h2>Quiz dépistage VIH et IST</h2>
+    <div class="container">
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
       </div>
     </div>
-    <div class="controls">
-      <button id="start-btn" class="start-btn btn">Start</button>
-      <button id="next-btn" class="next-btn btn hide">Next</button>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
